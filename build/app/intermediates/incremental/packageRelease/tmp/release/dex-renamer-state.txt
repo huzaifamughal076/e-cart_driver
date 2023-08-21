@@ -1,0 +1,4 @@
+#Wed Aug 02 20:47:45 PKT 2023
+base.0=/Users/mac/StudioProjects/ecart_driver/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

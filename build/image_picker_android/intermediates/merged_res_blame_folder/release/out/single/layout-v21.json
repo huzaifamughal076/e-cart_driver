@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

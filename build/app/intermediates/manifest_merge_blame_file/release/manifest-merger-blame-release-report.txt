@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ecart_express.driver"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:4:5-79
+12-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:6:5-85
+14-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:6:22-82
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:file_picker] /Users/mac/StudioProjects/ecart_driver/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+15-->[:file_picker] /Users/mac/StudioProjects/ecart_driver/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
+16
+17    <queries>
+17-->[:file_picker] /Users/mac/StudioProjects/ecart_driver/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+18        <intent>
+18-->[:file_picker] /Users/mac/StudioProjects/ecart_driver/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+19            <action android:name="android.intent.action.GET_CONTENT" />
+19-->[:file_picker] /Users/mac/StudioProjects/ecart_driver/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+19-->[:file_picker] /Users/mac/StudioProjects/ecart_driver/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+20
+21            <data android:mimeType="*/*" />
+21-->[:file_picker] /Users/mac/StudioProjects/ecart_driver/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+21-->[:file_picker] /Users/mac/StudioProjects/ecart_driver/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+22        </intent>
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+25    </queries> <!-- Include required permissions for Google Maps API to run. -->
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+26-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:22-76
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+30        android:required="true" />
+30-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+31
+32    <permission
+32-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+33        android:name="com.ecart_express.driver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.ecart_express.driver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+37
+38    <application
+39        android:name="android.app.Application"
+39-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:9:9-42
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:10:9-43
+42        android:label="ecart_driver" >
+42-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:8:9-37
+43        <activity
+43-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:11:9-31:20
+44            android:name="com.ecart_express.driver.MainActivity"
+44-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:12:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:16:13-163
+46            android:exported="true"
+46-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:13:13-36
+47            android:hardwareAccelerated="true"
+47-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:17:13-47
+48            android:launchMode="singleTop"
+48-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:14:13-43
+49            android:theme="@style/LaunchTheme"
+49-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:15:13-47
+50            android:windowSoftInputMode="adjustResize" >
+50-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:18:13-55
+51
+52            <!--
+53                 Specifies an Android theme to apply to this Activity as soon as
+54                 the Android process has started. This theme is visible to the user
+55                 while the Flutter UI initializes. After that, this theme continues
+56                 to determine the Window background behind the Flutter UI.
+57            -->
+58            <meta-data
+58-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:23:13-26:17
+59                android:name="io.flutter.embedding.android.NormalTheme"
+59-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:24:15-70
+60                android:resource="@style/NormalTheme" />
+60-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:25:15-52
+61
+62            <intent-filter>
+62-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:27:13-30:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:28:17-68
+63-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:28:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:29:17-76
+65-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:29:27-74
+66            </intent-filter>
+67        </activity>
+68        <!--
+69             Don't delete the meta-data below.
+70             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+71        -->
+72        <meta-data
+72-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:34:9-36:33
+73            android:name="flutterEmbedding"
+73-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:35:13-44
+74            android:value="2" />
+74-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:36:13-30
+75        <meta-data
+75-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:37:8-38:69
+76            android:name="com.google.android.geo.API_KEY"
+76-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:37:19-64
+77            android:value="AIzaSyBZCM_T_2Bq1n_-i9YogsPA7w4ThZ0Vm2o" />
+77-->/Users/mac/StudioProjects/ecart_driver/android/app/src/main/AndroidManifest.xml:38:12-67
+78
+79        <provider
+79-->[:image_picker_android] /Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+80            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+80-->[:image_picker_android] /Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+81            android:authorities="com.ecart_express.driver.flutter.image_provider"
+81-->[:image_picker_android] /Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+82            android:exported="false"
+82-->[:image_picker_android] /Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+83            android:grantUriPermissions="true" >
+83-->[:image_picker_android] /Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+84            <meta-data
+84-->[:image_picker_android] /Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+85                android:name="android.support.FILE_PROVIDER_PATHS"
+85-->[:image_picker_android] /Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+86                android:resource="@xml/flutter_image_picker_file_paths" />
+86-->[:image_picker_android] /Users/mac/StudioProjects/ecart_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+87        </provider> <!-- Needs to be explicitly declared on P+ -->
+88        <uses-library
+88-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+89            android:name="org.apache.http.legacy"
+89-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+90            android:required="false" />
+90-->[com.google.android.gms:play-services-maps:18.1.0] /Users/mac/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+96
+97        <meta-data
+97-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mac/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+98            android:name="com.google.android.gms.version"
+98-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mac/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+99            android:value="@integer/google_play_services_version" />
+99-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mac/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+100
+101        <uses-library
+101-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+102            android:name="androidx.window.extensions"
+102-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+103            android:required="false" />
+103-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+104        <uses-library
+104-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+105            android:name="androidx.window.sidecar"
+105-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+107    </application>
+108
+109</manifest>
